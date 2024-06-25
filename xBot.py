@@ -34,24 +34,6 @@ def log(log_text):
     log_file.close()
 
 
-# def web_driver():
-#     path_browser = 'D:\\VS CODE\\Test\\venv\\Scripts\\chromedriver-win32\\'
-#     user_data_dir = 'C:\\Users\\LEGION\\AppData\\Local\\Google\\Chrome\\User Data'
-#     options = webdriver.ChromeOptions()
-#     options.add_argument(f'--user-data-dir={user_data_dir}')
-#     options.add_argument('--profile-directory=Profile 1')
-#     # options.add_argument("--verbose")
-#     options.add_argument('--no-sandbox')
-#     options.add_argument("--disable-dev-shm-usage")
-#     # options.add_argument('--headless')
-#     # options.add_argument('--disable-gpu')
-#     # options.add_argument("--window-size=1920, 1200")
-#     # options.add_argument('--disable-dev-shm-usage')
-#     if sys.platform == 'win32':
-#         service = Service(executable_path=path_browser + 'chromedriver.exe')
-#         driver = webdriver.Chrome(service=service, options=options)
-#     driver.implicitly_wait(10)
-#     return driver
 def web_driver():
     path_browser = 'D:\\VS CODE\\Test\\venv\\Scripts\\chromedriver-win32\\chromedriver.exe'
     user_data_dir = r'C:\Users\LEGION\AppData\Local\Google\Chrome\User Data'
